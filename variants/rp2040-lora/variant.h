@@ -29,7 +29,7 @@
 #define BATTERY_IMMUTABLE
 // Disable ina charging detection to prevent charge percentage readings going to 100% while battery is charging.
 #define DISABLE_INA_CHARGING_DETECTION
-
+#define INA219_MULTIPLIER -1.0f
 
 #define HAS_CPU_SHUTDOWN 1
 #define USE_SX1262
